@@ -37,4 +37,3 @@ countLaps()
 countLaps()
 countLaps()
 console.log(lapsCompleted)
-
