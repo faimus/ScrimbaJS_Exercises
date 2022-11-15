@@ -37,3 +37,8 @@ countLaps()
 countLaps()
 countLaps()
 console.log(lapsCompleted)
+
+// Create a variable, message, that stores the string: You have three new notifications
+let username = "per"
+let message = "You have three new notifications"
+console.log(message+", "+username+"!")
