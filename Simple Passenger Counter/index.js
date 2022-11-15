@@ -30,10 +30,13 @@ function increment() {
   // console.log(count)
 }
 
-let saveN = ""
+// Commented code is what I used to make this work
 
+//let saveN = "Previous entries: "
 function save() {
-  saveN += count + " - "
-  saveEl.innerText = saveN
+  // saveN += count + " - "
+  // saveEl.innerText = saveN
   // console.log(count)
+  let counterStr = count + " - "
+  saveEl.innerText += counterStr
 }
