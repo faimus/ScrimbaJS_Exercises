@@ -38,5 +38,7 @@ function save() {
   // saveEl.innerText = saveN
   // console.log(count)
   let counterStr = count + " - "
-  saveEl.innerText += counterStr
+  // saveEl.innerText += counterStr
+  // innerText only shows 'Human Readable elements' so use textContent instead
+  saveEl.textContent += counterStr
 }
