@@ -19,12 +19,16 @@ function increment() {
 // increment the count variable when the button is clicked
 // change the count-el in the HTML to reflect the new count
 
-let countEl = document.getElementById("count-el")
+let countEl = document.getElementById("count-el") // this is the DOM: Document Object Model. Here Document is the html, Object is document. in the code and model is "count-el"
 
 let count = 0
 
 function increment() {
   count++
   countEl.innerText = count
+  console.log(count)
+}
+
+function save() {
   console.log(count)
 }
