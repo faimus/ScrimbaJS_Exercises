@@ -41,4 +41,7 @@ function save() {
   // saveEl.innerText += counterStr
   // innerText only shows 'Human Readable elements' so use textContent instead
   saveEl.textContent += counterStr
+  // reset count to 0 when save is hit
+  count = 0
+  countEl.textContent = count
 }
