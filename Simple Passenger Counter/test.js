@@ -62,3 +62,14 @@ console.log(4 + 5) // 9
 console.log("2" + "4") // "24"
 console.log("5" + 1) // "51"
 console.log(100 + "100") // "100100"
+
+// Practice time part 1
+
+// Create two variables, firstName and lastName
+// Concatenate the two variables into a third variable called fullName
+// Log fullName to the console
+let firstName = "Faisal"
+let lastName = "Mustafa"
+let fullName = firstName + " " + lastName
+console.log(fullName)
+
